@@ -30,6 +30,14 @@ Here is the figure of my architecture of movies and series dataset
 7. In the DAG's we also make a spark job, incase we are going to make a huge data computation. We also deleting the cluster automatically for bill security aspect.
 8. The result will stored in BigQuery as a new table of Datamart. So, DA/BI can access easily there.
 
+## Movies DAG's
+
+![alt text](https://github.com/rauldatascience/semi-structured-dwh/blob/main/output_merge/movie_airflow.png?raw=true)
+
+## Series DAG's
+
+![alt text](https://github.com/rauldatascience/semi-structured-dwh/blob/main/output_merge/series_airflow.png?raw=true)
+
 
 
 
